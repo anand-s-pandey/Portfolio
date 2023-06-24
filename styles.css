@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('tenor.gif');
+}
+
+header {
+  background-image: url('tenor.gif');
+  padding: 20px;
+  color: #000761;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 1000;
+  margin-left: 50px;
+  /* background-image: url('hero.jpg'); */
+  background-color: #dbd4d4;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color:#dbd4d4;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #E54ED0;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('tenor.gif');
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+}
+
+.section {
+  padding: 80px 0;
+  text-align: center;
+  color: #dbd4d4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.project {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container ul li{
+  list-style: none;
+  display: inline-block;
+}
+.container ul li img{
+  width :20%; 
+  height:40%;
+}
+
+.header .fa-brands,.fa,.fa-regular{
+  margin-right: 8px;
+}
+.fa-brands,.fa,.fa-regular{
+  margin-right: 8px;
+}
+
+.project img{
+    border-radius:50% ;
+   }
+
+footer {
+  background-image: url('tenor.gif');;
+  padding: 20px;
+  color:#dbd4d4;
+  text-align: center;
+}
